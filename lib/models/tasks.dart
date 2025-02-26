@@ -4,7 +4,7 @@ class Task {
   final int duration;
   final String deadline;
 
-  Task(this.name, this.priority, this.duration, this.deadline);
+  Task({required this.name, required this.priority, required this.duration, required this.deadline});
 
   @override
   String toString() {
